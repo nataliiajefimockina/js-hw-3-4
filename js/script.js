@@ -50,11 +50,12 @@ myLib.wrapElement();
 myLib.headElement(headName);
 myLib.olElement();
 
-for(var i = 1; i < 4; i++) {
-    myLib.liElement(question + i);
-    myLib.inputElement(answers[0]);
-    myLib.inputElement(answers[1]);
-    myLib.inputElement(answers[2]);
+for(var i = 0; i < answers.length; i++) {
+    myLib.liElement(question + (i+1));
+
+    for(var j = 0; j < answers.length; j++) {
+        myLib.inputElement(answers[j]);
+    }
 }
 
 myLib.buttonElement();
