@@ -1,0 +1,49 @@
+.wrap {
+    margin: 0 auto;
+    width: 47vw;
+    height: 510px;
+    font-weight: normal;
+    font-family: Arial, sans-serif;
+    font-size: 19px;
+}
+
+h1 {
+    margin: 22px 0 48px;
+    text-align: center;
+}
+
+ol {
+    width: 33%;
+    list-style: decimal;
+}
+
+li {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+label {
+    margin-left: 3px;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    margin: 0 17px 7px 0;
+}
+
+input {
+    border: 2px solid #000205;
+    background: #CFE2F3;
+}
+
+button {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 329px;
+    height: 55px;
+    font-size: 19px;
+    letter-spacing: -.8px;
+    margin: 48px 0 0 135px;
+    border: 2px solid #000205;
+    background: #CFE2F3;
+}
